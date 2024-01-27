@@ -38,6 +38,7 @@ button:hover {
 
 #botao-cancelar {
     background-color: red;
+    display: none;
 }
 
 ul {
@@ -59,4 +60,21 @@ li {
 
 li:hover {
     background-color: #f0f0f0;
+}
+
+.completed {
+    text-decoration: line-through;
+}
+
+.cancel-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #ff0000;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+
+.cancel-button:hover {
+    background-color: #cc0000;
 }
